@@ -16,7 +16,7 @@ html[data-theme='dark'] {
 }
 
 #main {
-  background-color: rgba(248, 247, 216, 0.7);
+  background-color: rgba(248, 247, 216, 0.3);
   position: absolute;
   top: 0;
   left: 0;
