@@ -10,13 +10,33 @@
 </head>
 <body>
   <div id="main">
-    <div>
+    <div id="content">
     Coming soon....
     <br/>
     <br/>
     <a href="https://djmorosini.github.io/critcalc/">Crit Calculator</a><br/>
     <a href="https://djmorosini.github.io/pencalc/">Pen Calculator</a><br/>
-    <a href="https://djmorosini.github.io/getranked/">POV Ranking Scorecard</a>
+    <a href="https://djmorosini.github.io/getranked/">POV Ranking Scorecard</a><br/>
+    <br/>
+    <!-- Tab links -->
+    <div class="tab">
+      <button class="tablinks" onclick="openIframe(event, 'critcalc')">Crit Calc</button>
+      <button class="tablinks" onclick="openIframe(event, 'pencalc')">Pen Calc</button>
+      <button class="tablinks" onclick="openIframe(event, 'getranked')">Ranking Scorecard</button>
+    </div>
+
+    <!-- Tab content -->
+    <div id="critcalc" class="tabcontent">
+      <iframe src="https://djmorosini.github.io/critcalc/"></iframe>
+    </div>
+
+    <div id="pencalc" class="tabcontent">
+      <iframe src="https://djmorosini.github.io/critcalc/"></iframe>
+    </div>
+
+    <div id="getranked" class="tabcontent">
+      <iframe src="https://djmorosini.github.io/critcalc/"></iframe>
+    </div>
   </div>
 </div>
   <script>pageInit()</script>
