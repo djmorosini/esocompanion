@@ -1,5 +1,5 @@
 function pageInit() {
-
+  document.getElementById("defaultOpen").click();
 }
 
 function openIframe(evt, pageName) {
