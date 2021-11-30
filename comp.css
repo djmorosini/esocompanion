@@ -85,7 +85,9 @@ iframe {
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
   display: none;
-  position:absolute;
+  position: absolute;
+  top: 20px;
+  left: 10px;
 }
 
 /* Style navigation menu links */
@@ -101,4 +103,9 @@ iframe {
 .topnav a.icon {
   position: fixed;
   top: 0;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
 }
