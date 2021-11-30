@@ -85,8 +85,8 @@ iframe {
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
   display: none;
-  position: absolute;
-  top: 20px;
+  position: fixed;
+  top: 30px;
   left: 10px;
 }
 
