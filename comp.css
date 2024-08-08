@@ -103,7 +103,7 @@ iframe {
 }
 
 /* Style the hamburger menu */
-.topnav a.icon {
+.burger {
   position: fixed;
   top: 0;
 }
@@ -113,7 +113,7 @@ iframe {
   color: black;
 }
 
-.show {
+#show {
   transform: translateY(0rem);
   visibility: visible;
   opacity: 1;
