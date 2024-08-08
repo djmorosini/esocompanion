@@ -23,8 +23,8 @@ function openIframe(evt, pageName) {
   evt.currentTarget.className += " active";
 }
 
-const dropdownBtn = document.getElementById("icon");
-const dropdownMenu = document.getElementById("dropdown");
+const dropdownBtn = document.getElementById("burger");
+const dropdownMenu = document.getElementById("myLinks");
 
 const toggleDropdown = function () {
   dropdownMenu.classList.toggle("show");
