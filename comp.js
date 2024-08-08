@@ -23,20 +23,12 @@ function openIframe(evt, pageName) {
   evt.currentTarget.className += " active";
 }
 
-const dropdownBtn = document.getElementById("burger");
-const dropdownMenu = document.getElementById("myLinks");
-
-const toggleDropdown = function () {
-  dropdownMenu.classList.toggle("show");
-};
-
-dropdownBtn.addEventListener("click", function (e) {
-  e.stopPropagation();
-  toggleDropdown();
-});
-
-document.documentElement.addEventListener("click", function () {
-  if (dropdownMenu.classList.contains("show")) {
-    toggleDropdown();
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
   }
-});
+}

@@ -85,10 +85,9 @@ iframe {
 
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
-  visibility: hidden;
-  opacity: 0;
+  display: none;
   position: fixed;
-  background-color: white;
+  background-color: grey;
   top: 30px;
   left: 10px;
 }
@@ -103,7 +102,7 @@ iframe {
 }
 
 /* Style the hamburger menu */
-.burger {
+.topnav a.icon {
   position: fixed;
   top: 0;
 }
@@ -111,10 +110,4 @@ iframe {
 .navbar a:hover {
   background: #ddd;
   color: black;
-}
-
-#show {
-  transform: translateY(0rem);
-  visibility: visible;
-  opacity: 1;
 }
