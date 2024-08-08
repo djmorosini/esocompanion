@@ -80,12 +80,15 @@ iframe {
 .topnav {
   overflow: hidden;
   padding: 5px;
+  height: 20px;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
-  display: none;
+  visibility: hidden;
+  opacity: 0;
   position: fixed;
+  background-color: white;
   top: 30px;
   left: 10px;
 }
@@ -108,4 +111,10 @@ iframe {
 .navbar a:hover {
   background: #ddd;
   color: black;
+}
+
+.show {
+  transform: translateY(0rem);
+  visibility: visible;
+  opacity: 1;
 }
